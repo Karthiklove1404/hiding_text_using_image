@@ -1,3 +1,5 @@
 from stegano import lsb
-decrypt = lsb.reveal("encrypt.png")
+print("saved filename.png ")
+saved_img = ("enter name : ")
+decrypt = lsb.reveal(saved_img)
 print(decrypt)
